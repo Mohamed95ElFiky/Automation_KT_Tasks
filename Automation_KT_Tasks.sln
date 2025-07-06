@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation_KT_Tasks", "Automation_KT_Tasks\Automation_KT_Tasks.csproj", "{156513C7-271D-4417-9ED4-64BC759717EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156513C7-271D-4417-9ED4-64BC759717EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156513C7-271D-4417-9ED4-64BC759717EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156513C7-271D-4417-9ED4-64BC759717EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156513C7-271D-4417-9ED4-64BC759717EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC07E12F-43A2-4785-AC33-B958A8F2C66F}
+	EndGlobalSection
+EndGlobal
