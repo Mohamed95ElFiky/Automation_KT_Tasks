@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj": {}
+    "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj": {
+    "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
+        "projectUniqueName": "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
         "projectName": "Automation_KT_Tasks",
-        "projectPath": "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
+        "projectPath": "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
         "packagesPath": "C:\\Users\\mohamed.elfiky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\obj\\",
+        "outputPath": "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.34.0, )"
             },
             "coverlet.collector": {
               "target": "Package",

@@ -365,6 +365,22 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Selenium.WebDriver/4.34.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Selenium.WebDriver.targets": {}
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
@@ -950,6 +966,28 @@
         "nunit_256.png"
       ]
     },
+    "Selenium.WebDriver/4.34.0": {
+      "sha512": "uNx+GF7WugHDPV2zpGDPlbSn3STQ6n0xFskFSeJdhEuuUTkIDfAsYnjVUiQidWDpy7mKzTz53ae7Thjghl3dng==",
+      "type": "package",
+      "path": "selenium.webdriver/4.34.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
+        "icon.png",
+        "lib/net8.0/WebDriver.dll",
+        "lib/net8.0/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.34.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
     "System.Reflection.Metadata/1.6.0": {
       "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
@@ -978,6 +1016,7 @@
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 4.5.0",
+      "Selenium.WebDriver >= 4.34.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -988,11 +1027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
+      "projectUniqueName": "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
       "projectName": "Automation_KT_Tasks",
-      "projectPath": "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
+      "projectPath": "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\Automation_KT_Tasks.csproj",
       "packagesPath": "C:\\Users\\mohamed.elfiky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohamed.elfiky\\source\\repos\\Automation_KT_Tasks\\Automation_KT_Tasks\\obj\\",
+      "outputPath": "C:\\Users\\mohamed.elfiky\\Desktop\\Automation_KT_Tasks\\Automation_KT_Tasks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1046,6 +1085,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.5.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.34.0, )"
           },
           "coverlet.collector": {
             "target": "Package",
