@@ -80,19 +80,6 @@ namespace Automation_KT_Tasks
             //Open Facebook and locate it's items
             driver.Navigate().GoToUrl("https://facebook.com");
 
-
-
-
-            
-
-
-
-
-
-
-
-
-
             Assert.Pass();
         }
         [Test]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Automation_KT_Tasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+703201f2d3a764582c7648c862846d7786b0abb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8080f9ee805db1cecd2d2c465101191d396e7304")]
 [assembly: System.Reflection.AssemblyProductAttribute("Automation_KT_Tasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Automation_KT_Tasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
